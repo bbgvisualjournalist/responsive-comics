@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>Circumvention with PGP: A comic book explanation</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Amatic+SC|Oswald' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/comicbook.css" />
+</head>
+<body>
+
+<div id='container'>
+	<div class='comicBook' id='pgp'>
+
+		<div style='text-align:center;'>
+			<h2 id='toolName' class='kicker'>PGP</h2>
+		</div>
+		<div class='panel col3 title block'>
+			<h1 id='headline'>Amazing encryption from humble PGP</h1>
+			<h2 id='tagline'>(An illustrated introduction)</h2>
+		</div>
+		<div class='panel col3 block comicIntro'>
+			<div class='subpanel third' style='margin-right:0; padding-right:0;'>
+				<img src='img/intro.png' class='imagePanel' style='margin-left:0; padding-left:0;'/>
+			</div>
+			<div class='subpanel twothirds'>
+				<p id='introduction' class='textPad all balloon' style='padding: 15px; text-align:center;'>There’s one tool available that will almost guarantee that nobody will be able to read the content of messages and other data you’re sending online. That tool is called PGP.</p>
+			</div>
+		</div>
+		<div class='clearMe'></div>
+
+		<div class='panel col1 hideMobile'>
+			<p id='panel1' class='textPad blackBox' style='text-align:center; background-color:#8dc63f; color:#8dc63f' >User A</p>
+			<img src='img/comic_PGP_1.gif' class='imagePanel'/>
+		</div>
+
+		<div class='panel col4'>
+			<p id='panel2' class='textPad' style='background-color: #928ac4; color:#000; text-align:center;' >PGP stands for “Pretty Good Privacy.” It enables two people to securely send and receive emails and documents.</p>
+			<img src='img/comic_PGP_2.gif' class='imagePanel'/>
+			<div class="insetBox showMobile" style="top: 50%; left: -10%; border:none; background:none;">
+				<img src='img/comic_PGP_1_mobile.gif' class='imagePanel removeBorder'/>
+			</div>
+			<div class="insetBox showMobile" style="top: 50%; right: -10%; border:none; background:none;">
+				<img src='img/comic_PGP_3_mobile.gif' class='imagePanel removeBorder'/>
+			</div>
+		</div>
+
+		<div class='panel col1 hideMobile'>
+			<p id='panel3' class='textPad blackBox'  style='text-align:center; background-color:#fbb040; color:#fbb040;' >User B</p>
+			<img src='img/comic_PGP_3.gif' class='imagePanel'/>
+		</div>
+
+		<div class='panel col3 block'>
+			<p id='panel4' class='textPad blackBox'>Because of the decentralized structure of the internet it's possible for bad actors to see messages as they travel across the web.</p>
+			<img src='img/comic_PGP_4.gif' class='imagePanel'/>
+		</div>
+
+		<div class='panel block col3' style='background:url(img/comic_PGP_5_background.gif); background-size:cover;'>
+			<p id='panel5' class='textPad'>To help protect communications PGP relies on a set of three keys to encode and decode messages.</p>
+			<div class='subpanel third'>
+				<img src='img/comic_PGP_5_public.gif' class='imagePanel'/>
+				<h3 id='panel5_inset1_title'>PUBLIC</h3>
+				<p id='panel5_inset1' class='textPad description'>Encodes a message that only the matching private key can decode.</p>
+			</div>
+			<div class='subpanel third'>
+				<img src='img/comic_PGP_5_session.gif' class='imagePanel'/>
+				<h3 id='panel5_inset3_title'>SESSION</h3>
+				<p id='panel5_inset3' class='textPad description'>Unique to each communication. Encrypted with the public key.</p>
+			</div>
+			<div class='subpanel third'>
+				<img src='img/comic_PGP_5_private.gif' class='imagePanel'/>
+				<h3 id='panel5_inset2_title'>PRIVATE</h3>
+				<p id='panel5_inset2' class='textPad description'>Used to decode messages sent to the user. </p>
+			</div>
+		</div>
+
+		<div class='panel clearMobile col0'></div>
+
+		<div class='panel col2'>
+			<img src='img/comic_PGP_6.gif' class='imagePanel' style='position:relative'/>
+			<p id='panel6' class='textPad blackBox'>Public keys can be shared freely. There are even directories of public keys.</p>
+		</div>
+
+		<div class='panel col2'>
+			<img src='img/comic_PGP_7.gif' class='imagePanel noFlip' style='position:relative'/>
+			<p id='panel7' class='textPad blackBox'>But the private key must be kept secure. It is accessed via a password.</p>
+		</div>
+
+		<div class='panel col2'>
+			<img src='img/comic_PGP_8.gif' class='imagePanel'/>
+			<p id='panel8' class='' style='padding-top: 10px;'>A bad actor may still be able to intercept the communication, but without the private key, they won't be able to decipher it.</p>
+		</div>
+	</div>
+
+</div><!--container-->
+
+</body>
+</html>
