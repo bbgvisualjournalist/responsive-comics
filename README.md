@@ -12,7 +12,7 @@ As part of that project we knew that we:
 Unlike a large, static infographic explanation, comic book pages divided up into panels are ideal for reflowing onto different devices.
 
 ##How it works
-I'm using a 6-column grid. Panels can be subdivided to guarantee that they'll remain grouped on smaller devices. Panels can include additional classes to add borders, tilt the panels or add drop shadows. Text can be styled as narration or inset as speech balloons. Some panels require inline styles to provide positioning.
+For [this project](http://projects.voanews.com/circumvention/pgp), I'm using a 6-column grid. Panels can be subdivided to guarantee that they'll remain grouped on smaller devices. Panels can include additional classes to add borders, tilt the panels or add drop shadows. Text can be styled as narration or inset as speech balloons. Some panels require inline styles to provide positioning.
 
 For comic books that are translated in both left-to-right and right-to-left languages, the panels will be reorganized to flow accordingly. I experimented with automatically flipping the artwork for each panel, but ultimately we decided to provide a separate RTL version of the artwork.
 
