@@ -1,5 +1,5 @@
 # responsive-comics
-A simple example of using CSS and media queries to create responsive comics based on a 6-column grid. 
+A simple example of using CSS and media queries to create [responsive comics](http://projects.voanews.com/circumvention/pgp) based on a 6-column grid. 
 
 ##Background
 We used this for a [VOA project](http://projects.voanews.com/circumvention/) explaining various online tools for circumventing government censorship efforts.
