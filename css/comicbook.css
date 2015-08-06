@@ -153,14 +153,15 @@ div.panel p{
 }*/
 
 /* Adds comic sans to <p/> with a class of .dialogue */
-/*div.panel p.dialogue{
+div.panel p.dialogue{
 	font-family: Comic Sans MS, sans-serif;
 	font-weight: bold;
-	line-height: 1.5em;
+	line-height: 1.2em;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 15px;
-}*/
+}
+
 
 /* font-stack: altA */
 div.panel p,
@@ -189,6 +190,8 @@ div.panel p.computer{
 	font-family: Courier, monospace;
 }
 
+p.centered{text-align: center !important;}
+
 div.panel.title {background-color: #000; padding:10px; width:auto;}
 div.panel.title h1{margin:0; padding:0; font-size: 2em; color:#FFF;}
 div.panel.title h2{ font-weight:normal; font-size: 2em; text-align: center; /*text-transform: uppercase*/; color:#999;padding:2px 10px; margin-top: 10px;}
@@ -207,6 +210,10 @@ p.balloon{
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px; /* future proofing */
+	background-color:#FFF;
+}
+p.balloon.bottom{
+	border-radius: 0 0 20px 20px;
 }
 
 .comicBook .top{
@@ -219,6 +226,8 @@ p.balloon{
 	border-top: none;
 }
 
+.panel.rounded{background-color: transparent;}
+.rounded img{border-radius: 50%;}
 
 div.panel p.uppercase{
 	text-transform: uppercase;
